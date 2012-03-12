@@ -1,6 +1,3 @@
-import java.io.InputStream;
-import java.net.Socket;
-
 /**
  * Created by IntelliJ IDEA.
  * User: stvad
@@ -8,14 +5,6 @@ import java.net.Socket;
  * Time: 21:02
  * To change this template use File | Settings | File Templates.
  */
-public class ClientListener implements Runnable
+public class ClientListener
 {
-    protected Socket mySocket;
-    protected InputStream myInputStream;
-
-    @Override
-    public void run()
-    {
-
-    }
 }
